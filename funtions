@@ -806,9 +806,9 @@ coroutine.wrap(function()--our fov circle fuck you figure it out urself
                 a.Visible=true
                 a.Position=Vector2.new(center.X,center.Y)
                 a.Color=_G.SilentAim.Fov_Color
-                a.Thickness=2.5
-                a.Transparency=1
-                a.NumSides=100
+                a.Thickness=3.5
+                a.Transparency=0.7
+                a.NumSides=90
                 a.Radius=_G.SilentAim.Fov
                 coroutine.wrap(function()
                     wait(1.1)
@@ -818,4 +818,5 @@ coroutine.wrap(function()--our fov circle fuck you figure it out urself
         end)
     end
 end)()
-game:GetService("StarterGui"):SetCore("SendNotification",{Title="To toggle the UI",Text="RightControl",Duration=260})
+game:GetService("StarterGui"):SetCore("SendNotification",{Title="To toggle the UI",Text="RightControl",Duration=10})
+game:GetService("StarterGui"):SetCore("SendNotification",{Title="Made by C7,Text="Pedro | D11#2375",Duration=10})
